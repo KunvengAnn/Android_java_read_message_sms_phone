@@ -13,6 +13,9 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+
+//NotificationListenerService this keyword for read or Receive message notification Other app if want example
+//like facebook ,instagram, tiktok, ...............
 public class SmsReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
